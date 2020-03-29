@@ -1,0 +1,42 @@
+/* Fill this in */
+html{
+    height:100%;
+}
+body{
+    margin:0;
+    Padding:0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:14px;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 220px 1fr 335px;
+    grid-column-gap: 20px;
+}
+.logo{
+    margin-bottom: 40px;
+    display:block;
+}
+.sidebar{
+    width:220px;
+    background: #343951;
+    padding: 40px;
+}
+.sidebar .nav-item{
+    color: #777b8f;
+    margin-bottom: 45px;
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+}
+.sidebar .nav-item img{
+    filter: invert(50%) sepia(19%) saturate(325%) hue-rotate(193deg)
+    brightness(92%) contrast(88%);
+    margin-right: 20px;
+}
+.content{
+    background: #f5f6fb;
+}
+.stats{
+  
+    background: #f5f6fb;
+}
